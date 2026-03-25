@@ -8,7 +8,7 @@ import {
   sessionRelations,
   userRelations,
 } from "./auth-schema";
-import { links } from "./schema";
+import { links, linkRelations } from "./schema";
 
 export {
   user,
@@ -20,4 +20,4 @@ export {
   sessionRelations,
   userRelations,
 };
-export { links };
+export { links, linkRelations };
